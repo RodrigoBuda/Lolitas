@@ -34,6 +34,10 @@ button{
 width: 150px;
 }
 
+.navMenu{
+    font-size: 2.5em;
+}
+
 .cont-menu{
     display: none;
   
