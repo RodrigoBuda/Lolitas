@@ -1,5 +1,7 @@
 *{
     box-sizing: border-box;
+    margin: 0;
+    padding: 0;
 }
 html{
     scroll-behavior:smooth;
@@ -11,10 +13,12 @@ body{
 }
 
 h1{font-size: 3.5em;}
-h2{font-size: 2.7em;}
-h3{font-size: 2em;}
-p{font-size: 1.25em;}
+h2{font-size: 5.7em;}
+h3{font-size: 3.5em;}
+p{font-size: 3.25em;}
 ul{font-size: none;}
+
+
 
 button{
     font-size: 2.25em;
@@ -26,21 +30,13 @@ button{
     background-color:rgb(251, 156, 188) ;
 }
 
-icono-menu{
-    margin-left: 60px;
-    margin-top: 30px;
+.logopng{
+width: 150px;
 }
 
-.imgLogo{
-   /*margin-left: 50px;*/
-   /*margin-top: 30px;
-   position: absolute;*/
-   width: 100px;
-   height: 70px;
-
-}
 .cont-menu{
-    display: flex;
+    display: none;
+  
     flex-direction: column;
     align-items: center;
 }
@@ -48,13 +44,12 @@ icono-menu{
     background-color: rgb(251, 156, 188);
     
 }
-.bannerImg{
+/*.bannerImg{
     object-fit:cover;
     width: 100%;
     height: 520px;
 }
-
-
+*/
 
 header nav{
     display: flex;
@@ -66,8 +61,27 @@ header a{
     padding: 5px 12px;
     text-decoration: none;
     font-weight: bold;
-    color: rgb(30, 30, 30);
+    color: rgb(50, 50, 50);
     font-size: 3em;
+}
+
+#sobreMi{
+    background-size: cover;
+    background-image: linear-gradient(
+        0deg,
+        rgba(0,0,0,0.5),
+        rgba(0,0,0,0.5)
+    )
+    ,url("img/flor.jpg");
+    background-repeat: no-repeat;
+}
+#sobreMi h2{
+    color:white;
+    margin-top: 300px;
+}
+#sobreMi p{
+    color: white;
+    margin-top: 100px;
 }
 
 .cont-sobreMi{
@@ -92,7 +106,9 @@ display: none;
     color: white;
     padding: 150px, 12px;
 }
-
+#servicios h2{
+    color: rgb(60, 60, 60);
+}
 
 .servUno{
     background-image: linear-gradient(
