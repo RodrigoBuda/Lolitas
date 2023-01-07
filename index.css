@@ -80,11 +80,13 @@ header a{
 }
 #sobreMi h2{
     color:white;
-    margin-top: 300px;
+    margin-top: 200px;
+    
 }
 #sobreMi p{
     color: white;
     margin-top: 100px;
+    margin-bottom: 100px;
 }
 
 .cont-sobreMi{
@@ -93,7 +95,7 @@ header a{
 }
 #servicios{
     text-align: center;
-    padding: 200px 50px;
+    padding: 130px 50px;
 }
 
 #servicios{
@@ -111,6 +113,7 @@ display: none;
 }
 #servicios h2{
     color: rgb(60, 60, 60);
+    margin-bottom: 70px;
 }
 
 .servUno{
@@ -154,9 +157,21 @@ display: none;
 }
 
 #turnos{
-    display: none;
+   margin-top: 50px;
+
 }
 
+.cont-turnos{
+    text-align: center;
+    justify-content: center;
+    margin: 50px;
+}
+
+.div-sep{
+    border-bottom: 2px solid rgb(248, 153, 187);
+  width: 150px;
+  margin:-30px auto 50px ;
+}
 
 #contacto{
     margin-top: 50px;
