@@ -13,17 +13,17 @@ body{
 }
 
 h1{font-size: 3.5em;}
-h2{font-size: 5.7em;}
-h3{font-size: 3.5em;}
-p{font-size: 3.25em;}
+h2{font-size: 2.7em;}
+h3{font-size: 1.8em;}
+p{font-size: 1.25em;}
 ul{font-size: none;}
 
 
 
 button{
-    font-size: 2.25em;
+    font-size: 1.2em;
     font-weight: bold;
-    padding: 10px 30px;
+    padding: 10px 20px;
     border-radius: 10px;
     border: 2px solid rgba(0, 0, 0, 0.5);
     color: white;
@@ -31,11 +31,11 @@ button{
 }
 
 .logopng{
-width: 150px;
+width: 90px;
 }
 
 .navMenu{
-    font-size: 2.5em;
+    font-size: 1.2em;
     box-shadow: 0px 0px 50px 00px rgb(50, 50, 50);
 }
 
@@ -43,13 +43,9 @@ width: 150px;
     background-color: rgb(244, 231, 225);
 }
 
-.rayitas{
-    width: 50px;
-    height: 50px;
-}
+
 .cont-menu{
     display: none;
-  
     flex-direction: column;
     align-items: center;
 }
@@ -63,14 +59,14 @@ header nav{
     display: flex;
     flex-direction: column;
     text-align: center;
-    padding-bottom: 25px;
+    
 }
 header a{
-    padding: 5px 12px;
+    
     text-decoration: none;
     font-weight: bold;
     color: rgb(50, 50, 50);
-    font-size: 3em;
+    
 }
 
 #sobreMi{
@@ -86,40 +82,35 @@ header a{
 }
 #sobreMi h2{
     color:white;
-    margin-top: 200px;
-    
-}
+    }
 #sobreMi p{
     color: white;
-    margin-top: 100px;
-    margin-bottom: 100px;
+    margin-top: 20px;
+    margin-bottom: 20px;
 }
 
 .cont-sobreMi{
     text-align: center;
-    padding: 200px 12px;
+    padding: 150px 15px;
 }
 #servicios{
     text-align: center;
-    padding: 130px 50px;
-}
-
-#servicios{
+    padding: 20px 8px;
     background-color: rgb(248, 153, 187);
 }
+
 #servicios p{
 display: none;
 }
+
 #servicios h3{
     color: white;
 }
-.cont-serv{
-    color: white;
-    padding: 150px, 12px;
-}
+
 #servicios h2{
     color: rgb(60, 60, 60);
-    margin-bottom: 70px;
+    margin-bottom: 30px;
+    font-size: 2.5em;
 }
 
 .servUno{
@@ -131,7 +122,7 @@ display: none;
     ,url("img/pestañas.jpg");
     background-position: center, center;
     background-size: cover;
-    padding: 50px;
+    padding: 20px;
     margin: 20px;
     border-radius: 15px;
 }
@@ -144,7 +135,7 @@ display: none;
     ,url("img/labios.jpg");
     background-position: center, center;
     background-size: cover;
-    padding: 50px;
+    padding: 20px;
     margin: 20px;
     border-radius: 15px;
 }
@@ -157,14 +148,16 @@ display: none;
     ,url("img/faciales.jpg");
     background-position: center, center;
     background-size: cover;
-    padding: 50px;
+    padding: 20px;
     margin: 20px;
     border-radius: 15px;
 }
 
 #turnos{
    margin-top: 50px;
-
+}
+#turnos h3{
+    font-size: 1.8em;
 }
 
 .cont-turnos{
@@ -185,60 +178,64 @@ display: none;
 }
 
 .iconos{
-    font-size: 80px;
+    font-size: 40px;
     color: rgb(248, 153, 187);
-    margin: 25px 35px;
+    margin: 20px 30px;
 }
 .cont-contacto{
 text-align: center;
 justify-content: center;
-margin: 50px;
+margin: 20px;
 }
 .cont-redes{
     text-align: center;
     justify-content: center;
-    margin: 50px;
+    margin: 20px;
 }
 .cont-mail{
     text-align: center;
     justify-content: center;
-    margin: 50px;
+    margin: 20px;
 }
 
 .wp-sup{
-    font-size: 80px;
+    font-size: 40px;
     background-color: #25d366;
     color: white;
     z-index: 1000;
     position: fixed;
-    bottom: 20px;
-    right: 20px;
+    bottom: 10px;
+    right: 10px;
     box-shadow: 1px 6px 24px 0 rgb(7 94 84 / 24%);
     cursor: pointer;
     transition: background-color .2s linear;
-    border-radius: 80px;
-    padding: 10px;
+    border-radius: 100px;
+    padding: 5px;
 }
  
 #menu-final{
     background-color: rgb(248, 153, 187);
-    font-size: 2.5em;
-    padding: 30px 10px 30px;
+    font-size: 1em;
+    padding-top: 20px;
 }
 ul{
     list-style-type: none;
 }
-#menu-final li{
-margin: 20px;
-}
+
 .logo-final{
-    width: 500px;
-    height: 300px;
+    width: 150px;
+    height: 120px;
+    padding-bottom: 20px;
+   
  
 }
 .cont-lista-logo{
 display: flex;
-justify-content: space-around;
+justify-content:space-between;
+}
+
+.lista_final a{
+    margin-bottom: 10px;
 }
 /* --------------   FIN DE INDEX  -------------------*/
 
@@ -251,13 +248,11 @@ justify-content: space-around;
 
 .cont-sec-tyc p{
     text-align: center;
-    padding: 50px;
-    font-size: 2.5em;
+    padding: 20px;
     word-wrap:break-word
 }
 .cont-sec-tyc h2{
-    font-size: 4em;
-    text-align: center;
+   text-align: center;
     padding-top: 50px;
 
 }
@@ -277,7 +272,7 @@ justify-content: space-around;
 
 .cont-sec-sobre-nosotros{
 background-size:cover;
-    height: 1000px;
+    height: 800px;
     background-image: linear-gradient(
         0deg,
         rgba(0,0,0,0.5),
@@ -290,28 +285,25 @@ background-size:cover;
 
 .cont-sec-sobre-nosotros h2{
 color: rgb(244, 231, 225);
-font-size: 5em;
 padding: 50px;
-
-
 }
 
 .cont-sec-sobre-nosotros p{
 color: rgb(244, 231, 225);
-font-size: 2.7em;
 padding: 30px 50px;
 }
 
 .img-local{
 width: 100%;
-display: flex;
+padding: 10px;
+border-radius: 20px;
 }
-.cont-img{
-overflow: hidden;
-width: 500px;
-}
+
 .cont-img-texto{
 text-align: center;
+}
+.cont-img-texto p{
+padding: 10px;
 }
 
 
