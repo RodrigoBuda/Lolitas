@@ -39,8 +39,6 @@ ul {
   cursor: pointer;
 }
 .boton-verMas {
-  font-size: 1.2em;
-  font-weight: bold;
   padding: 6px 13px;
   border-radius: 10px;
   border: 2px solid rgb(244, 231, 225);
@@ -52,6 +50,8 @@ ul {
 }
 .a-verMas {
   text-decoration: none;
+  font-size: 1.2em;
+  font-weight: bold;
   color: rgb(50, 50, 50);
 }
 
