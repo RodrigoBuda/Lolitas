@@ -21,7 +21,7 @@ function TresServicios(servicios) {
             <p class="p-description">
                     ${s.description}
             </p>
-                    <button type="button" class="boton" onclick="window.location.href='../pages/servicio.html?id=${s._id}'">+info</button>
+                    <button type="button" class="boton" onclick="window.location.href='./pages/servicio.html?id=${s._id}'">+info</button>
 
             </div>
 
