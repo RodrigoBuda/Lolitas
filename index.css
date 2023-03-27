@@ -33,7 +33,7 @@ ul {
   font-weight: bold;
   padding: 8px 15px;
   border-radius: 10px;
-  border: 2px solid rgba(0, 0, 0, 0.5);
+  border: 0px solid rgb(244, 231, 225);
   color: white;
   background-color: rgb(251, 156, 188);
   cursor: pointer;
