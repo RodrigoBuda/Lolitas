@@ -17,12 +17,12 @@ function TresServicios(servicios) {
                         padding: 20px;
                         margin: 20px;
                         border-radius: 15px;">
-            <h3>${s.name} </h3>
-            <p class="p-description">
-                    ${s.description}
-            </p>
-                    <button type="button" class="boton" onclick="window.location.href='./pages/servicio.html?id=${s._id}'">+info</button>
-
+            <h3 class="tit-card-index">${s.name} </h3>
+            
+            <p class="card-text p-description"> ${s.description} </p>
+            <h5 class="puntos-susp"> <b>...</b></h5>
+                    <button type="button" class="boton btn-masInfo" onclick="window.location.href='./pages/servicio.html?id=${s._id}'">+info</button>
+                    <button type="button" class="boton btn-masInformacion" onclick="window.location.href='./pages/servicio.html?id=${s._id}'">Mas Informacion</button>
             </div>
 
         </div>
