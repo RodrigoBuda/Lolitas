@@ -100,7 +100,7 @@ header nav {
       rgba(0, 0, 0, 0.5),
       rgba(0, 0, 0, 0.5)
     ),
-    url("img/local.jpeg");
+    url("./img/local.jpeg");
   background-repeat: no-repeat;
 }
 #sobreMi h2 {
