@@ -29,6 +29,7 @@ p {
   font-size: 1.25em;
 }
 .puntos-susp {
+  display: none;
   color: white;
 }
 
@@ -271,6 +272,10 @@ ul {
   .btn-masInfo {
     display: none;
   }
+  .puntos-susp {
+    display: inline-block;
+    color: white;
+  }
   #servicios p {
     display: flex;
     color: white;
@@ -310,6 +315,11 @@ ul {
 
     outline: 2px solid var(--colorSecundario);
     transition: background-color 0.5s ease;
+  }
+
+  /*--------------MAS DE 990PX-servicios--------------*/
+  .div-card-serv {
+    max-width: 500px;
   }
 }
 
@@ -358,12 +368,14 @@ ul {
 }
 
 /*----------------------  SERVICIOS  ------------------------*/
-
+.galery {
+}
 .card {
   background-position: center, center;
   padding: 20px;
   margin: 20px;
   border-radius: 15px;
+  width: 40%;
 }
 .tarjetas-img {
   object-fit: cover;

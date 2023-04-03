@@ -20,7 +20,7 @@ function TresServicios(servicios) {
             <h3 class="tit-card-index">${s.name} </h3>
             
             <p class="card-text p-description"> ${s.description} </p>
-            <h5 class="puntos-susp"> <b>...</b></h5>
+            <div class="div-puntos-susp"><h5 class="puntos-susp"> <b>...</b></h5></div>
                     <button type="button" class="boton btn-masInfo" onclick="window.location.href='./pages/servicio.html?id=${s._id}'">+info</button>
                     <button type="button" class="boton btn-masInformacion" onclick="window.location.href='./pages/servicio.html?id=${s._id}'">Mas Informacion</button>
             </div>
