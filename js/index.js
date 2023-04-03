@@ -11,7 +11,7 @@ function TresServicios(servicios) {
                         rgba(0, 0, 0, 0.5),
                         rgba(0, 0, 0, 0.5)
                         ),
-                        url( ${s.image} );
+                        url( src="${s.image}" );
                         background-position: center, center;
                         background-size: cover;
                         padding: 20px;
