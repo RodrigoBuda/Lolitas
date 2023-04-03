@@ -4,7 +4,7 @@ const contIndexServ = document.querySelector(".contIndexServ");
 function TresServicios(servicios) {
   let tarjetas = "";
   for (const s of servicios.slice(0, 3)) {
-    tarjetas += `<div class="cont-serv">
+    tarjetas += `<div>
         
             <div style=" background-image: linear-gradient(
                         0deg,
