@@ -4,9 +4,9 @@ const contIndexServ = document.querySelector(".contIndexServ");
 function TresServicios(servicios) {
   let tarjetas = "";
   for (const s of servicios.slice(0, 3)) {
-    tarjetas += `<div>
+    tarjetas += `
         
-            <div style=" background-image: linear-gradient(
+            <div style= "background-image: linear-gradient(
                         0deg,
                         rgba(0, 0, 0, 0.5),
                         rgba(0, 0, 0, 0.5)
@@ -25,7 +25,6 @@ function TresServicios(servicios) {
                     <button type="button" class="boton btn-masInformacion" onclick="window.location.href='./pages/servicio.html?id=${s._id}'">Mas Informacion</button>
             </div>
 
-        </div>
        `;
   }
   return tarjetas;
