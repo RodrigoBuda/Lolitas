@@ -5,7 +5,7 @@ export const services = [
     category: "pestañas",
     description:
       "El lifting de pestañas es una técnica de belleza no invasiva que levanta y curva tus pestañas de forma natural. Se aplica una solución química especial que eleva las pestañas y luego se aplican tintes para realzar su color. El resultado dura de 6 a 8 semanas. En nuestro salón de belleza, ofrecemos una experiencia de spa relajante y acogedora con profesionales altamente capacitados.",
-    image: "../img/lifting.jpg",
+    image: "./img/lifting.jpg",
     price: "$2500",
   },
   {
