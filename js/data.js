@@ -5,7 +5,8 @@ export const services = [
     category: "pestañas",
     description:
       "El lifting de pestañas es una técnica de belleza no invasiva que levanta y curva tus pestañas de forma natural. Se aplica una solución química especial que eleva las pestañas y luego se aplican tintes para realzar su color. El resultado dura de 6 a 8 semanas. En nuestro salón de belleza, ofrecemos una experiencia de spa relajante y acogedora con profesionales altamente capacitados.",
-    image: "./img/lifting.jpg",
+    image: "../img/lifting.jpg",
+    imgIndex: "./img/lifting.jpg",
     price: "$2500",
   },
   {
@@ -15,6 +16,7 @@ export const services = [
     description:
       "El servicio de LipBoost con Dermapen es una solución innovadora que combina la tecnología de seguridad LipBoost con el tratamiento de belleza Dermapen. Esta combinación única ofrece una experiencia integral de seguridad y belleza. El servicio LipBoost es una solución de seguridad que utiliza tecnología de cifrado de datos para proteger la información financiera del usuario durante las transacciones en línea. Por otro lado, el Dermapen es un dispositivo de microagujas utilizado para mejorar la salud y apariencia de la piel mediante la estimulación del colágeno y la elastina. La combinación de ambos servicios permite a los clientes experimentar una sensación de seguridad mientras se someten a un tratamiento de belleza rejuvenecedor. Al utilizar LipBoost durante el proceso de pago, los clientes pueden estar seguros de que su información financiera está protegida. Mientras tanto, el tratamiento Dermapen utiliza microagujas para estimular el colágeno y mejorar la textura, tono y apariencia de la piel. En resumen, el servicio de LipBoost con Dermapen ofrece una solución integral para aquellos que desean un tratamiento de belleza rejuvenecedor y seguro en línea. La combinación de ambos servicios garantiza la protección de la información financiera del cliente mientras se someten a un tratamiento de belleza de alta calidad.",
     image: "../img/lipbost.jpg",
+    imgIndex: "./img/lipbost.jpg",
     price: "$3000",
   },
   {
@@ -24,6 +26,7 @@ export const services = [
     description:
       "El servicio de limpieza facial es un tratamiento de belleza que se enfoca en limpiar y purificar la piel del rostro. Este servicio se realiza utilizando técnicas de limpieza y productos especializados diseñados para eliminar la suciedad, el aceite y las impurezas de la piel, dejándola suave, radiante y rejuvenecida. La limpieza facial es un tratamiento ideal para mejorar la salud y apariencia de la piel y mantenerla en óptimas condiciones.",
     image: "../img/faciales.jpg",
+    imgIndex: "./img/faciales.jpg",
     price: "$2200",
   },
   {

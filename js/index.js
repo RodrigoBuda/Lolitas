@@ -4,8 +4,6 @@ const contIndexServ = document.querySelector(".contIndexServ");
 function TresServicios(servicios) {
   let tarjetas = "";
   for (const s of servicios.slice(0, 3)) {
-    let imagen = "";
-    imagen = s.image;
     tarjetas += `
         
       <div style="background-image: linear-gradient(
@@ -13,7 +11,7 @@ function TresServicios(servicios) {
       rgba(0, 0, 0, 0.5),
       rgba(0, 0, 0, 0.5)
     ),
-    url(${imagen});
+    url(${s.imgIndex});
     
   background-position: center, center;
   background-size: cover;
