@@ -263,6 +263,11 @@ ul {
   .separador-der {
     display: none;
   }
+  /*--------------MENOS DE 990PX-servicios--------------*/
+  .card {
+    width: 500px;
+    margin: 20px auto;
+  }
 }
 /*--------------MAS DE 990PX--------------*/
 @media only screen and (min-width: 991px) {
@@ -318,8 +323,8 @@ ul {
   }
 
   /*--------------MAS DE 990PX-servicios--------------*/
-  .div-card-serv {
-    max-width: 500px;
+  .card {
+    width: 30%;
   }
 }
 
@@ -368,13 +373,19 @@ ul {
 }
 
 /*----------------------  SERVICIOS  ------------------------*/
-
+.cont-de-card {
+  display: flex;
+  flex-direction: row;
+  max-width: 100%;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
 .card {
   background-position: center, center;
+
   padding: 20px;
-  margin: 20px;
+  margin: 20px auto;
   border-radius: 15px;
-  width: 40%;
 }
 .tarjetas-img {
   object-fit: cover;
