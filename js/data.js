@@ -42,7 +42,7 @@ export const services = [
     category: "cejas",
     description:
       "El servicio de cejas HD es una técnica especializada de diseño y definición de cejas que se enfoca en crear cejas de aspecto natural, definido y simétrico. Este servicio utiliza técnicas de depilación y maquillaje para dar forma y definir las cejas, utilizando productos de alta calidad para lograr un aspecto duradero y resistente al agua. Las cejas HD son ideales para aquellas personas que desean una apariencia definida y natural de las cejas, y puede ser adaptado a diferentes formas y estilos de cejas según las necesidades y preferencias del cliente.",
-    image: "../img/cejas.jpg",
+    image: "../img/cejass.jpg",
     price: "$1800",
   },
 ];
