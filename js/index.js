@@ -6,17 +6,18 @@ function TresServicios(servicios) {
   for (const s of servicios.slice(0, 3)) {
     tarjetas += `
         
-            <div style= "background-image: linear-gradient(
-                        0deg,
-                        rgba(0, 0, 0, 0.5),
-                        rgba(0, 0, 0, 0.5)
-                        ),
-                        url( ${s.image} );
-                        background-position: center, center;
-                        background-size: cover;
-                        padding: 20px;
-                        margin: 20px;
-                        border-radius: 15px;">
+      <div style="background-image: linear-gradient(
+      0deg,
+      rgba(0, 0, 0, 0.5),
+      rgba(0, 0, 0, 0.5)
+    ),
+    url(${s.image});
+    
+  background-position: center, center;
+  background-size: cover;
+  padding: 20px;
+  margin: 20px;
+  border-radius: 15px;">
             <h3 class="tit-card-index">${s.name} </h3>
             
             <p class="card-text p-description"> ${s.description} </p>
