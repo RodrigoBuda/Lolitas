@@ -6,7 +6,9 @@ function mostrarServicios(servicios) {
   for (const s of servicios) {
     tarjetas += `
          <div class="card">
+         <div class="cont-img-servicios">
           <img class="tarjetas-img" src="${s.image}" alt="" />
+          </div>
           <div class="card-body">
             <div class="cont-titulo">
             <h3 class="card-title"><b>${s.name}</b></h3>
